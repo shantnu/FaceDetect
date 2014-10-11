@@ -1,5 +1,7 @@
-This is some quick demo code I wrote for my Kickstarter:
+Run the code like this:
 
-https://www.kickstarter.com/projects/513736598/python-for-science-and-engineering
+python face_detect.py <image file> haarcascade_frontalface_default.xml
 
-Full explantion will be provided in the upcoming book.
+If you want to understand how the code works, the details are here:
+
+https://realpython.com/blog/python/face-recognition-with-python/
