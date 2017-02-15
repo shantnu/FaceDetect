@@ -1,3 +1,4 @@
+# Tested with OpenCV3
 import cv2
 
 cap = cv2.VideoCapture(0)
@@ -11,7 +12,6 @@ while(True):
 
 	# Our operations on the frame come here
 	gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-
 
 	# Detect faces in the image
 	faces = faceCascade.detectMultiScale(
