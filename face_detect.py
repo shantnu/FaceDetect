@@ -21,7 +21,7 @@ faces = faceCascade.detectMultiScale(
     flags = cv2.cv.CV_HAAR_SCALE_IMAGE
 )
 
-print "Found {0} faces!".format(len(faces))
+print("Found {0} faces!".format(len(faces)))
 
 # Draw a rectangle around the faces
 for (x, y, w, h) in faces:
