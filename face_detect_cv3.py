@@ -3,7 +3,7 @@ import sys
 
 # Get user supplied values
 imagePath = sys.argv[1]
-cascPath = sys.argv[2]
+cascPath = "haarcascade_frontalface_default.xml"
 
 # Create the haar cascade
 faceCascade = cv2.CascadeClassifier(cascPath)
@@ -21,7 +21,7 @@ faces = faceCascade.detectMultiScale(
     #flags = cv2.CV_HAAR_SCALE_IMAGE
 )
 
-print "Found {0} faces!".format(len(faces))
+print("Found {0} faces!".format(len(faces)))
 
 # Draw a rectangle around the faces
 for (x, y, w, h) in faces:
