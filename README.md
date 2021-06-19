@@ -1,3 +1,9 @@
+# Warning: DEPRECATED
+
+Please use the repo for my book, available here: https://github.com/shantnu/PyEng
+
+
+
 Run the code like this:
 
 *python face_detect.py abba.png*
